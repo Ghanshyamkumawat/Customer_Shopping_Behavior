@@ -212,7 +212,7 @@ Open the `.pbix` file using **Power BI Desktop**.
 
 ## 👨‍💻 Author
 
-**Krishna Kumar**
+**Ghanshyam Kumawat**
 
 - GitHub: https://github.com/Ghanshyamkumawat
 - LinkedIn: *(Add your LinkedIn profile here)*
