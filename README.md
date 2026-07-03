@@ -33,7 +33,6 @@ The dataset contains **3,900+ customer transaction records** with information su
 - ✔ Sales Trend Analysis
 
 ---
-
 ## 🛠️ Tech Stack
 
 - Python
@@ -43,7 +42,6 @@ The dataset contains **3,900+ customer transaction records** with information su
 - SQL
 - Power BI
 - Jupyter Notebook
-
 ---
 
 ## 📂 Project Structure
