@@ -18,7 +18,7 @@ group by item_purchased
 order by avg(review_rating) desc
 limit 5;
 
--- Q4. Compare the average Purchase Amounts between Standard and Express Shipping. 
+-- Q4. Compare the average Purchase Amounts between Standard and Express Shipping.
 select shipping_type, 
 ROUND(AVG(purchase_amount),2)
 from customer
@@ -30,7 +30,7 @@ group by shipping_type;
 SELECT subscription_status,
        COUNT(customer_id) AS total_customers,
        ROUND(AVG(purchase_amount),2) AS avg_spend,
-       ROUND(SUM(purchase_amount),2) AS total_revenue
+       ROUND(SUM(purchase_amount),2) AS total_revenue 
 FROM customer
 GROUP BY subscription_status
 ORDER BY total_revenue,avg_spend DESC;
